@@ -301,12 +301,16 @@ with tab1:
 
 with tab2:
 
-    st.subheader(
-        "Ketika Cinta Tak Sejalan Dengan Rasionalitas"
-    )
+    st.subheader("🎬 Video Refleksi Pembelajaran")
 
-    if os.path.exists("assets/reels.mp4"):
-        st.video("assets/reels.mp4")
+    st.markdown("""
+    Video refleksi pembelajaran Critical Thinking dapat diakses melalui tautan berikut:
+    """)
+
+    st.link_button(
+        "🎥 Tonton Video Refleksi",
+        "https://www.instagram.com/reel/DZXDR9JR2IN/"
+    )
 
 with tab3:
     st.subheader(
