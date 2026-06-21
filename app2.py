@@ -1,11 +1,7 @@
 import streamlit as st
 import pandas as pd
+import plotlib.express as px
 import os
-import matplotlib.pyplot as plt
-
-fig, ax = plt.subplots()
-ax.bar(x, y)
-st.pyplot(fig)
 
 st.set_page_config(
     page_title="Portofolio Critical Thinking",
